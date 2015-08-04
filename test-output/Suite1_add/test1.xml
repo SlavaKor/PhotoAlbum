@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Iaroslavas-MacBook-Pro.local" tests="1" failures="0" timestamp="25 Jul 2015 19:16:26 GMT" time="0.073" errors="0">
+  <testcase name="testAlbumAdd" time="0.04" classname="TestAlbum"/>
+</testsuite>

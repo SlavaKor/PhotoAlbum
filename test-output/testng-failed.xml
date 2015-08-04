@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="test1(failed)" preserve-order="false">
+    <groups>
+      <run>
+        <include name="unit"/>
+        <include name="web"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestAlbum">
+        <methods>
+          <include name="testAlbumFailure"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

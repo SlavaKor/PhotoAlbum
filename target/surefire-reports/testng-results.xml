@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1_add" duration-ms="456" started-at="2015-07-25T23:05:26Z" finished-at="2015-07-25T23:05:26Z">
+    <groups>
+      <group name="add">
+        <method signature="TestAlbum.testAlbumAdd()[pri:0, instance:TestAlbum@7156b6f3]" name="testAlbumAdd" class="TestAlbum"/>
+      </group> <!-- add -->
+    </groups>
+    <test name="test1" duration-ms="62" started-at="2015-07-25T23:05:26Z" finished-at="2015-07-25T23:05:26Z">
+      <class name="TestAlbum">
+        <test-method status="PASS" signature="testAlbumAdd()[pri:0, instance:TestAlbum@7156b6f3]" name="testAlbumAdd" duration-ms="27" started-at="2015-07-25T16:05:26Z" finished-at="2015-07-25T16:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlbumAdd -->
+      </class> <!-- TestAlbum -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="0" started-at="2015-07-25T23:05:26Z" finished-at="2015-07-25T23:05:26Z">
+    </test> <!-- test2 -->
+  </suite> <!-- Suite1_add -->
+  <suite name="Suite3_remove" duration-ms="11" started-at="2015-07-25T23:05:26Z" finished-at="2015-07-25T23:05:26Z">
+    <groups>
+      <group name="remove">
+        <method signature="TestAlbum.testAlbumRemove()[pri:0, instance:TestAlbum@79929190]" name="testAlbumRemove" class="TestAlbum"/>
+      </group> <!-- remove -->
+    </groups>
+    <test name="test1" duration-ms="5" started-at="2015-07-25T23:05:26Z" finished-at="2015-07-25T23:05:26Z">
+      <class name="TestAlbum">
+        <test-method status="PASS" signature="testAlbumRemove()[pri:0, instance:TestAlbum@79929190]" name="testAlbumRemove" duration-ms="1" started-at="2015-07-25T16:05:26Z" finished-at="2015-07-25T16:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlbumRemove -->
+      </class> <!-- TestAlbum -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="1" started-at="2015-07-25T23:05:26Z" finished-at="2015-07-25T23:05:26Z">
+    </test> <!-- test2 -->
+  </suite> <!-- Suite3_remove -->
+  <suite name="Suite2_change" duration-ms="11" started-at="2015-07-25T23:05:26Z" finished-at="2015-07-25T23:05:26Z">
+    <groups>
+      <group name="change">
+        <method signature="TestAlbum.testAlbumChangeSize()[pri:0, instance:TestAlbum@1ab2ea03]" name="testAlbumChangeSize" class="TestAlbum"/>
+      </group> <!-- change -->
+    </groups>
+    <test name="test1" duration-ms="5" started-at="2015-07-25T23:05:26Z" finished-at="2015-07-25T23:05:26Z">
+      <class name="TestAlbum">
+        <test-method status="PASS" signature="testAlbumChangeSize()[pri:0, instance:TestAlbum@1ab2ea03]" name="testAlbumChangeSize" duration-ms="1" started-at="2015-07-25T16:05:26Z" finished-at="2015-07-25T16:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlbumChangeSize -->
+      </class> <!-- TestAlbum -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="0" started-at="2015-07-25T23:05:26Z" finished-at="2015-07-25T23:05:26Z">
+    </test> <!-- test2 -->
+  </suite> <!-- Suite2_change -->
+</testng-results>

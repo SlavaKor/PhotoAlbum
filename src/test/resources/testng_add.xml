@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1_add" verbose="10" >
+
+    <test name="test1" >
+        <groups>
+            <run>
+                <include name="add"/>
+                <!--<include name="change"/>-->
+                <!--<include name="remove"/>-->
+            </run>
+        </groups>
+        <classes>
+            <class name="TestAlbum"/>
+
+        </classes>
+    </test>
+
+    <test name="test2">
+    </test>
+</suite>
